@@ -1,9 +1,0 @@
----
-- hosts: localhost
-
-  tasks:
-
-  - name: Setup ssh
-    known_hosts:
-      host='[127.0.0.1]:220'
-      key='[127.0.0.1]:220 ssh-ed25519 KEY'
